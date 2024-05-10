@@ -1,5 +1,7 @@
 # Stock Portfolio Suggestion Engine
 
+## CMPE 285 - Software Engineering Project
+
 ## Overview
 
 The Stock Portfolio Suggestion Engine is an innovative web application designed to assist investors in creating a personalized stock portfolio. Leveraging Python and Flask, this tool uses real-time financial data to recommend investment strategies tailored to user preferences and financial goals.
