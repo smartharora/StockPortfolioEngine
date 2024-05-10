@@ -27,5 +27,24 @@ Follow these instructions to get your copy of the project up and running on your
 
 - Python 3.x
 - Flask
-- An API key for accessing stock market data
 
+
+### License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
+
+## Contact
+
+Smarth Arora –  smarth.arora@sjsu.edu
+
+Project Link: [https://github.com/your_username/StockPortfolioEngine](https://github.com/your_username/StockPortfolioEngine)
+
+## Acknowledgements
+
+- [Yahoo Finance](https://finance.yahoo.com) for providing financial data APIs.
+- [Flask](https://palletsprojects.com/p/flask/) for the web framework used.
+- [ViteJS](https://vitejs.dev/) for powering the frontend development.
