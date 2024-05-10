@@ -31,10 +31,6 @@ Follow these instructions to get your copy of the project up and running on your
 - Flask
 
 
-### License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
@@ -43,7 +39,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) f
 
 Smarth Arora –  smarth.arora@sjsu.edu
 
-Project Link: [https://github.com/your_username/StockPortfolioEngine](https://github.com/your_username/StockPortfolioEngine)
+Project Link: [Stock Portfolio Engine](https://stock-portfolio-engine.vercel.app/)
 
 ## Acknowledgements
 
