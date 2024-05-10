@@ -1,6 +1,7 @@
 # Stock Portfolio Suggestion Engine
 
 ## CMPE 285 - Software Engineering Project
+### Project Link: [Stock Portfolio Engine](https://stock-portfolio-engine.vercel.app/)
 
 ## Overview
 
@@ -39,7 +40,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) f
 
 Smarth Arora –  smarth.arora@sjsu.edu
 
-Project Link: [Stock Portfolio Engine](https://stock-portfolio-engine.vercel.app/)
 
 ## Acknowledgements
 
