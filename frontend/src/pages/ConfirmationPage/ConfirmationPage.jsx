@@ -50,7 +50,6 @@ const ConfirmationPage = () => {
         },
       });
     };
-  
     return (
       <>
         <Box
@@ -65,7 +64,7 @@ const ConfirmationPage = () => {
           <Box
             display={'flex'}
             flexDirection="column"
-            backgroundColor="white"
+            backgroundColor="#f0f8ff" /* Light blue background color */
             p={4}
             borderRadius={4}
           >
@@ -76,7 +75,7 @@ const ConfirmationPage = () => {
               </Box>
             ) : (
               <Box>
-                <Typography textAlign="left" variant="h5" p={2}>
+                <Typography textAlign="left" variant="h5" p={2} color="#333333"> /* Dark gray text color */
                   Confirmation
                 </Typography>
                 <Card>
@@ -90,7 +89,7 @@ const ConfirmationPage = () => {
                     <Typography>Investing Strategies: {strategies}</Typography>
                   </CardContent>
                 </Card>
-  
+
                 <Box display="flex" marginTop={'5%'}>
                   <Button
                     sx={{ width: '10%' }}

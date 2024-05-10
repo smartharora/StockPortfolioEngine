@@ -38,7 +38,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) f
 ## Contact
 
 Smarth Arora –  smarth.arora@sjsu.edu
-
 Project Link: [Stock Portfolio Engine](https://stock-portfolio-engine.vercel.app/)
 
 ## Acknowledgements

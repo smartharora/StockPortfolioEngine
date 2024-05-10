@@ -67,74 +67,76 @@ const StrategiesPage = () => {
   
     return (
       <>
-        <Box
-          display="flex"
-          flexDirection={'column'}
-          marginTop="0.5%"
-          p={10}
-          height="510px"
-          marginLeft={'0.1%'}
-          sx={{ overflowY: 'scroll', overflowX: 'hidden' }}
+  <Box
+    display="flex"
+    flexDirection={'column'}
+    marginTop="0.5%"
+    p={10}
+    height="510px"
+    marginLeft={'0.1%'}
+    sx={{ overflowY: 'scroll', overflowX: 'hidden' }}
+  >
+    <Box
+      borderRadius="15px"
+      boxShadow="0px 3px 10px rgba(0, 0, 0, 0.2);" /* Lighter shade for box shadow */
+      padding="20px"
+      background="linear-gradient(135deg, #add8e6, #87ceeb)" /* Gradient background */
+      marginBottom="20px"
+      color="#333333" /* Dark text color */
+    >
+      <Typography sx={{ textAlign: 'left', marginBottom: '3%' }}>
+        Step 2: Select Strategies
+      </Typography>
+      <FormControl sx={{ width: 500, marginRight: '85%' }}>
+        <InputLabel id="demo-multiple-checkbox-label">
+          Investing Strategies
+        </InputLabel>
+        <Select
+          multiple
+          value={investing}
+          onChange={handleChange}
+          input={<OutlinedInput label="Investing Strategies" />}
+          renderValue={(selected) => selected.join(', ')}
+          MenuProps={MenuProps}
+          error={fieldError}
+          helpertext={helperText}
         >
-          <Box
-            borderRadius="15px"
-            boxShadow="-9px 10px 12px 0px rgba(221,221,221,1);"
-            padding="20px"
-            backgroundColor="#c1d8f0"
-            marginBottom="20px"
-          >
-            <Typography sx={{ textAlign: 'left', marginBottom: '3%' }}>
-              Step 2: Select Strategies
-            </Typography>
-            <FormControl sx={{ width: 500, marginRight: '85%' }}>
-              <InputLabel id="demo-multiple-checkbox-label">
-                Investing Strategies
-              </InputLabel>
-              <Select
-                multiple
-                value={investing}
-                onChange={handleChange}
-                input={<OutlinedInput label="Investing Strategies" />}
-                renderValue={(selected) => selected.join(', ')}
-                MenuProps={MenuProps}
-                error={fieldError}
-                helpertext={helperText}
-              >
-                {names.map((name) => (
-                  <MenuItem key={name} value={name}>
-                    <Checkbox checked={investing.indexOf(name) > -1} />
-                    <ListItemText primary={name} />
-                  </MenuItem>
-                ))}
-              </Select>
-              {fieldError ? (
-                <FormHelperText error>{helperText}</FormHelperText>
-              ) : null}
-            </FormControl>
-            <Typography sx={{ textAlign: 'left' }}>
-              Pick one or two Investment strategies
-            </Typography>
-            <Box display="flex" marginTop={'5%'}>
-              <Button
-                sx={{ width: '10%' }}
-                variant="outlined"
-                onClick={() => {
-                  navigate('/');
-                }}
-              >
-                Back
-              </Button>
-              <Button
-                sx={{ width: '10%', marginLeft: '80%' }}
-                variant="outlined"
-                onClick={() => sendValue()}
-              >
-                Next
-              </Button>
-            </Box>
-          </Box>
-        </Box>
-      </>
+          {names.map((name) => (
+            <MenuItem key={name} value={name}>
+              <Checkbox checked={investing.indexOf(name) > -1} />
+              <ListItemText primary={name} />
+            </MenuItem>
+          ))}
+        </Select>
+        {fieldError ? (
+          <FormHelperText error>{helperText}</FormHelperText>
+        ) : null}
+      </FormControl>
+      <Typography sx={{ textAlign: 'left' }}>
+        Pick one or two Investment strategies
+      </Typography>
+      <Box display="flex" marginTop={'5%'}>
+        <Button
+          sx={{ width: '10%' }}
+          variant="outlined"
+          onClick={() => {
+            navigate('/');
+          }}
+        >
+          Back
+        </Button>
+        <Button
+          sx={{ width: '10%', marginLeft: '80%' }}
+          variant="outlined"
+          onClick={() => sendValue()}
+        >
+          Next
+        </Button>
+      </Box>
+    </Box>
+  </Box>
+</>
+
     );
 }
 

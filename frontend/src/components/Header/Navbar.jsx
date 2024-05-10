@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          Invest Hub
+          Stock Portfolio Engine
         </div>
         <div className="nav-elements">
           <ul>
