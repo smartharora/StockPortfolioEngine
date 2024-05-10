@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fcfcfc;
+}
+
+#root
+{
+  padding: 0;
+  max-width: none;
+}
+
+.recharts-legend-wrapper
+{
+  bottom: 0px !important;
+}
