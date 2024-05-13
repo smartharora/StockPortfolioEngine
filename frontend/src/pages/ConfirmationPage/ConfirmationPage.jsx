@@ -75,7 +75,7 @@ const ConfirmationPage = () => {
               </Box>
             ) : (
               <Box>
-                <Typography textAlign="left" variant="h5" p={2} color="#333333"> /* Dark gray text color */
+                <Typography textAlign="left" variant="h5" p={2} color="#333333">
                   Confirmation
                 </Typography>
                 <Card>
