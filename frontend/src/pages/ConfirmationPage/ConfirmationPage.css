@@ -1,0 +1,28 @@
+/* src/pages/ConfirmationPage/ConfirmationPage.css */
+.Card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.Typography {
+    color: #333;
+    /* Dark text for readability */
+}
+
+.Button {
+    background: linear-gradient(45deg, #FE6B8B, #FF8E53);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.Button:hover {
+    background: linear-gradient(45deg, #FF8E53, #FE6B8B);
+    transform: translateY(-2px);
+}

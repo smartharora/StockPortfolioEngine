@@ -1,0 +1,30 @@
+/* src/pages/InvestmentPage/InvestmentPage.css */
+.Box {
+    background-color: #ffffff; /* White background for clarity */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .TextField {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd; /* Subtle border */
+  }
+  
+  .Button {
+    background: linear-gradient(45deg, #2196F3, #21CBF3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .Button:hover {
+    background: linear-gradient(45deg, #21CBF3, #2196F3);
+    transform: translateY(-2px); /* Lift effect on hover */
+  }
+  
